@@ -94,6 +94,13 @@ The following are the source and destination points:
 | 1040, 677     | 1037, 720      |
 | 264, 677      | 205, 720        |
 
+The perspective transform was then done by the following function
+
+```python
+M=cv2.getPerspectiveTransform(src,dst)
+warped_img=cv2.warpPerspective(combined_binary,M,combined_binary.shape[1::-1],
+                                            flags=cv2.INTER_LINEAR )
+```
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
 ![Perspective Transform](output_images/persp_out.png)
