@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf. 
 
-[Here](writeup.md) is the writeup for this project. The writeup is in markdown format.
+[Here](README.md) is the writeup for this project. The writeup is in markdown format.
 
 ### Camera Calibration
 
